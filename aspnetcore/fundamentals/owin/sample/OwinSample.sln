@@ -1,20 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23103.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A2F3CA98-7115-4786-89CD-2DE72ABA48B9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AB54F120-651A-4C98-94ED-EB5DD19F241D}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "OwinSample", "src\OwinSample\OwinSample.xproj", "{5BCA088C-966B-445D-8F97-AEDEEB8E0EEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OwinSample", "src\OwinSample\OwinSample.csproj", "{5BCA088C-966B-445D-8F97-AEDEEB8E0EEF}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NowinSample", "src\NowinSample\NowinSample.xproj", "{B7272BAB-EEFB-4275-BE6D-899C99AC06A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NowinSample", "src\NowinSample\NowinSample.csproj", "{B7272BAB-EEFB-4275-BE6D-899C99AC06A8}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "NowinWebSockets", "src\NowinWebSockets\NowinWebSockets.xproj", "{B559D92C-83BA-4A04-BC2F-DDAD3E9D8F4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NowinWebSockets", "src\NowinWebSockets\NowinWebSockets.csproj", "{B559D92C-83BA-4A04-BC2F-DDAD3E9D8F4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,5 +39,8 @@ Global
 		{5BCA088C-966B-445D-8F97-AEDEEB8E0EEF} = {A2F3CA98-7115-4786-89CD-2DE72ABA48B9}
 		{B7272BAB-EEFB-4275-BE6D-899C99AC06A8} = {A2F3CA98-7115-4786-89CD-2DE72ABA48B9}
 		{B559D92C-83BA-4A04-BC2F-DDAD3E9D8F4D} = {A2F3CA98-7115-4786-89CD-2DE72ABA48B9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {957B95F8-A8A2-42D6-8D67-C3D839334DC3}
 	EndGlobalSection
 EndGlobal
