@@ -412,7 +412,7 @@ builder.Host.ConfigureAppConfiguration((hostingContext, config) =>
 {
     config.AddJsonFile("MyArray.json",
                         optional: true,
-                        reloadOnChange: true); ;
+                        reloadOnChange: true);
 });
 
 builder.Services.AddRazorPages();

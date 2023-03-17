@@ -29,7 +29,7 @@ public static class WeatherApi
           summaries[Random.Shared.Next(summaries.Length)]
       ))
       .ToArray();
-        return TypedResults.Ok(forecast); ;
+        return TypedResults.Ok(forecast);
     }
 }
 
