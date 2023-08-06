@@ -1,13 +1,13 @@
 ---
-title: Share controllers, views, Razor Pages and more with Application Parts in ASP.NET Core
+title: Share controllers, views, Razor Pages, and more with Application Parts in ASP.NET Core
 author: rick-anderson
-description: Share controllers, view, Razor Pages and more with Application Parts in ASP.NET Core
+description: Share controllers, view, Razor Pages, and more with Application Parts in ASP.NET Core
 ms.author: riande
 ms.date: 11/11/2019
 uid: mvc/extensibility/app-parts
 ---
 
-# Share controllers, views, Razor Pages and more with Application Parts
+# Share controllers, views, Razor Pages, and more with Application Parts
 
 :::moniker range=">= aspnetcore-3.0"
 
@@ -91,7 +91,7 @@ View Components:
 
 ## Discovery in application parts
 
-HTTP 404 errors are not uncommon when developing with application parts. These errors are typically caused by missing an essential requirement for how applications parts are discovered. If your app returns an HTTP 404 error, verify the following requirements have been met:
+HTTP 404 errors are not uncommon when developing with application parts. These errors are typically caused by missing an essential requirement for how application parts are discovered. If your app returns an HTTP 404 error, verify the following requirements have been met:
 
 * The `applicationName` setting needs to be set to the root assembly used for discovery. The root assembly used for discovery is normally the entry point assembly.
 * The root assembly needs to have a reference to the parts used for discovery. The reference can be direct or transitive.
@@ -178,7 +178,7 @@ View Components:
 
 ## Discovery in application parts
 
-HTTP 404 errors are not uncommon when developing with application parts. These errors are typically caused by missing an essential requirement for how applications parts are discovered. If your app returns an HTTP 404 error, verify the following requirements have been met:
+HTTP 404 errors are not uncommon when developing with application parts. These errors are typically caused by missing an essential requirement for how application parts are discovered. If your app returns an HTTP 404 error, verify the following requirements have been met:
 
 * The `applicationName` setting needs to be set to the root assembly used for discovery. The root assembly used for discovery is normally the entry point assembly.
 * The root assembly needs to have a reference to the parts used for discovery. The reference can be direct or transitive.
